@@ -52,6 +52,7 @@ main{
     flex-grow: 1;
     justify-content: center;
     display: flex;
+    
 }
 
 .griglia {
@@ -60,7 +61,7 @@ main{
     align-content: flex-start;
     max-width: 49.375rem;
     max-height: 49.375rem;
-  
+    margin-top: 5rem;
     background-color: #7fffd4;
 }
 .cella {
