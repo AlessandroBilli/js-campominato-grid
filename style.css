@@ -33,17 +33,43 @@ header{
     margin: 20px;
     gap: 39px;
     align-items: center;
+    justify-content: space-between;
     
 }
-
+.container-logo {
+    display: flex;
+    height: 6.875rem;
+    padding: .75rem;
+    justify-content: start;
+    margin: 20px;
+    gap: 39px;
+    align-items: center;
+    
+}
 
 main{
     background-color: #7fffd4;
     flex-grow: 1;
+    justify-content: center;
+    display: flex;
 }
 
-
-
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 49.375rem;
+    max-height: 49.375rem;
+  
+    background-color: #7fffd4;
+}
+.cella {
+    height: calc(100% / 10) ;
+    width: calc(100% / 10)  ;
+    border: .125rem solid; 
+    padding: .625rem;
+}
+Questo stile sarà applicato a 
 
 footer {
     background-color: #ffffff;
